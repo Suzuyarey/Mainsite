@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #a0c8d8;
+    color: white;
+}
+.gray {
+    background-color: #d3d3d3;
+}
+.blue {
+    background-color: #d0e7f9;
+}
+.yellow {
+    background-color: #fffacd;
+}
+.green {
+    background-color: #d0f0c0;
+}
+.pink {
+    background-color: #f9d0d0;
+}
