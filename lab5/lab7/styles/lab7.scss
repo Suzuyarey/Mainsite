@@ -1,0 +1,56 @@
+@import '_variables';
+
+body {
+    background-color: $background-color;
+    font-family: $font-stack;
+    color: $text-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+
+    &__header {
+        background-color: $primary-color;
+        padding: 20px;
+        color: white;
+    }
+
+    &__title {
+        margin: 0;
+    }
+
+    &__image {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__content {
+        padding: 15px;
+
+        &__text {
+            margin: 0;
+        }
+    }
+
+    &__footer {
+        background-color: #f9f9f9;
+        padding: 10px;
+
+        &__signature {
+            margin: 0;
+            font-style: italic;
+        }
+    }
+}
